@@ -2,7 +2,6 @@ require 'open-uri'
 require 'json'
 require 'net/http'
 
-
 class GetRequester
   attr_accessor :url
   
@@ -18,10 +17,6 @@ class GetRequester
   
   def parse_json
     data = JSON.parse(self.get_response_body)
-    # data
   end 
-  
-  
-  
   
 end
