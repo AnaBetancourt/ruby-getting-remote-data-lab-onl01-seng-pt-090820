@@ -4,14 +4,14 @@ require 'net/http'
 
 
 class GetRequester
-  attr_accessor :URL
+  attr_accessor :url
   
   def initialize(url)
-    @URL = url
+    @url = url
   end
   
   def get_response_body
-    uri = URI.parse(@URL)
+    uri = URI.parse(@url)
     response = NET::HTTP.get_response(uri)
     response.body
   end 
