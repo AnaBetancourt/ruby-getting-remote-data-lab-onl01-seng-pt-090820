@@ -4,9 +4,9 @@ require 'net/http'
 
 
 class GetRequester
-  attr_accessor :URL
+  # attr_accessor :URL
   
-  
+  URL = url
   
   def initialize(url)
   end
