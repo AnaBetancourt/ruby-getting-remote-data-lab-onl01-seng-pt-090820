@@ -5,9 +5,8 @@ require 'net/http'
 
 class GetRequester
   
-  URL = url
-  
   def initialize(url)
+    
   end
   
   def get_response_body
