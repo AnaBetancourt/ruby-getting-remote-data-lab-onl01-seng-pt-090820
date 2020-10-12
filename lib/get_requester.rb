@@ -4,7 +4,6 @@ require 'net/http'
 
 
 class GetRequester
-  # attr_accessor :URL
   
   URL = url
   
